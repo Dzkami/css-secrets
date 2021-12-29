@@ -1,0 +1,33 @@
+.box {
+  background-color: darkturquoise;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+.box-1 {
+  border: 10px solid rgba(236, 142, 155, 0.5);
+}
+.box-2 {
+  border: 10px dashed rgba(236, 142, 155, 0.5);
+}
+.padding-box {
+  background-clip: padding-box;
+  border: 10px solid rgba(236, 142, 155, 0.5);
+}
+.padding-box-dashed {
+  background-clip: padding-box;
+  border: 10px dashed rgba(236, 142, 155, 0.5);
+}
+.content-box {
+  background-clip: content-box;
+  border: 10px solid rgba(236, 142, 155, 0.5);
+}
+.text-box {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  border: 10px solid rgba(236, 142, 155, 0.5);
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>半透明边框</title>
+  <link rel="stylesheet" href="../base.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div>由box-1、box-2可见默认情况下，背景会自动铺满至边框外沿</div>
+  <div class="box box-1">平平无奇的box-1</div>
+  <div class="box box-2">平平无奇的box-2</div>
+  <div>
+    使用css3提供的background-clip解决此问题，默认值为border-box，如果将其设置为padding-box，背景仅延伸至padding外沿。
+    background-clip的值有：border-box / padding-box / content-box / text
+  </div>
+  <div class="box padding-box">啊，是魔法 padding-box</div>
+  <div class="box padding-box-dashed">啊，是魔法 padding-box dashed</div>
+  <div class="box content-box">啊，是魔法 content-box</div>
+  <div class="box text-box">啊，是魔法 text</div>
+</body>
